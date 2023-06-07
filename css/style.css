@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+     padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    padding: 15px 0;
+}
+nav button{
+    border: none;
+    padding: 15px 20px;
+    font-size: 30px;
+}
+aside{
+    width: 200px;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+     transform: translateX(100%);
+}
+ aside .active{
+    transform: translateX(0%);
+ }
+aside a{
+    color: black;
+    display: block;
+    margin-bottom: 15px;
+}
